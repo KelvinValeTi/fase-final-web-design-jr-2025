@@ -18,7 +18,7 @@ export function HeroSection() {
       </div>
       
       {/* Content */}
-      <div className="relative z-10 container mx-auto px-4 text-center">
+      <div className="relative z-10 max-[500px]:pt-40 max-[500px]:pb-40 container mx-auto px-4 text-center">
         <div className="max-w-4xl mx-auto animate-fade-in">
           <h1 className="text-5xl md:text-7xl font-bold text-background mb-6 leading-tight">
             Encontre Seu
@@ -36,7 +36,7 @@ export function HeroSection() {
               <TrendingUp className="w-5 h-5 mr-2" />
               Explorar Imóveis
             </Button>
-            <Button variant="hero" size="xl">
+            <Button variant="hero" size="xl" className="text-white">
               <Play className="w-5 h-5 mr-2" />
               Assistir Tour Virtual
             </Button>
