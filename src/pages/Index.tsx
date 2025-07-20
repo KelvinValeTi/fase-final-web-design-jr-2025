@@ -272,7 +272,7 @@ const Index = () => {
                 <MapPin className="w-5 h-5 mr-2" />
                 Falar com Especialista
               </Button>
-              <Button variant="hero" size="xl">
+              <Button variant="hero" size="xl" className="text-white">
                 Agendar Visita
               </Button>
             </div>

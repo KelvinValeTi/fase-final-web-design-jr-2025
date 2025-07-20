@@ -11,3 +11,5 @@
 * para melhor legibilidade, a cor da fonte de assitir tour virtual, deveria ser branco
 * os botões do formulario estão estourando o container do mesmo
 
+# Pronto para encontrar seu Novo lar?
+* alterar a cor da fonte do botão "agendar visita" para a cor branca, facilita a legibilidade
