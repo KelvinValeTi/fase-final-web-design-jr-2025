@@ -1,73 +1,35 @@
-# Welcome to your Lovable project
-
-## Project info
-
-**URL**: https://lovable.dev/projects/538488a0-d7f0-4a31-8517-1ea9f7027494
-
-## How can I edit this code?
-
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/538488a0-d7f0-4a31-8517-1ea9f7027494) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
 **Use your preferred IDE**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+Para inicializar o projeto:
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
+# Step 1: Clone o repositorio utilizando a URL deste projeto
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# Step 2: navegue até o diretorio do projeto
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
+# Step 3: instale todas as dependências necessárias
 npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: inicie o servidor de desenvolvimento.
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+# teste fase final web design jr.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+# como foi proposto apenas para fazer a versão mobile, considerei o max-width como 500px
 
-**Use GitHub Codespaces**
+# navbar => concluído
+* os botoes estouram o layout
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+# hero section => concluído
+* problema com o hero section, no 4k funciona bem, mas conforme a resolução reduz, alguns elementos nao ficam aparentes
+* para melhor legibilidade, a cor da fonte de assitir tour virtual, deveria ser branca
+* os botões do formulario estão estourando o container do mesmo
 
-## What technologies are used for this project?
+# cores dos icones na seção de imóveis em destaque => concluído
+* alterar para branco para melhor contraste
 
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/538488a0-d7f0-4a31-8517-1ea9f7027494) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+# Pronto para encontrar seu Novo lar? => concluído
+* alterar a cor da fonte do botão "agendar visita" para a cor branca, facilita a legibilidade
