@@ -49,13 +49,13 @@ export function PropertyCard({
           </Badge>
           
           <div className="absolute bottom-3 right-3 flex gap-2">
-            <Button size="icon" variant="hero" className="w-8 h-8">
+            <Button size="icon" variant="hero" className="w-8 h-8 text-white">
               <Heart className="w-4 h-4" />
             </Button>
-            <Button size="icon" variant="hero" className="w-8 h-8">
+            <Button size="icon" variant="hero" className="w-8 h-8 text-white">
               <Share2 className="w-4 h-4" />
             </Button>
-            <Button size="icon" variant="hero" className="w-8 h-8">
+            <Button size="icon" variant="hero" className="w-8 h-8 text-white">
               <Camera className="w-4 h-4" />
             </Button>
           </div>
