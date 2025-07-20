@@ -11,10 +11,10 @@ export function Header() {
               <Home className="w-6 h-6 text-primary-foreground" />
             </div>
             <div>
-              <h1 className="text-xl font-bold text-foreground">
+              <h1 className="text-xl font-bold text-foreground max-[500px]:hidden" >
                 Premium<span className="text-primary">Imóveis</span>
               </h1>
-              <p className="text-xs text-muted-foreground">Sua casa dos sonhos</p>
+              <p className="text-xs text-muted-foreground max-[500px]:hidden">Sua casa dos sonhos</p>
             </div>
           </div>
           
